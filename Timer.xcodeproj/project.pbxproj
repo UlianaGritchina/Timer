@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0E6B4E9627C11B900002DA4E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B4E9527C11B900002DA4E /* DataManager.swift */; };
+		0E6B4E9827C120920002DA4E /* TextFildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B4E9727C120920002DA4E /* TextFildView.swift */; };
+		0E6B4E9A27C122EB0002DA4E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B4E9927C122EB0002DA4E /* CircleView.swift */; };
+		0E6B4E9C27C123380002DA4E /* UnderCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B4E9B27C123380002DA4E /* UnderCircleView.swift */; };
 		0ED4FF8327BD2C7800A9140C /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8227BD2C7800A9140C /* TimerApp.swift */; };
-		0ED4FF8527BD2C7800A9140C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8427BD2C7800A9140C /* ContentView.swift */; };
+		0ED4FF8527BD2C7800A9140C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8427BD2C7800A9140C /* TimerView.swift */; };
 		0ED4FF8727BD2C7B00A9140C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8627BD2C7B00A9140C /* Assets.xcassets */; };
 		0ED4FF8A27BD2C7B00A9140C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8927BD2C7B00A9140C /* Preview Assets.xcassets */; };
 		0ED4FF9127BD326300A9140C /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF9027BD326300A9140C /* WhiteButton.swift */; };
@@ -21,9 +24,12 @@
 
 /* Begin PBXFileReference section */
 		0E6B4E9527C11B900002DA4E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0E6B4E9727C120920002DA4E /* TextFildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFildView.swift; sourceTree = "<group>"; };
+		0E6B4E9927C122EB0002DA4E /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		0E6B4E9B27C123380002DA4E /* UnderCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderCircleView.swift; sourceTree = "<group>"; };
 		0ED4FF7F27BD2C7800A9140C /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED4FF8227BD2C7800A9140C /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
-		0ED4FF8427BD2C7800A9140C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0ED4FF8427BD2C7800A9140C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		0ED4FF8627BD2C7B00A9140C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ED4FF8927BD2C7B00A9140C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0ED4FF9027BD326300A9140C /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
@@ -66,7 +72,10 @@
 				0ED4FF8227BD2C7800A9140C /* TimerApp.swift */,
 				0ED4FF9827BD46AE00A9140C /* StarterView.swift */,
 				0ED4FF9427BD392500A9140C /* RegisterView.swift */,
-				0ED4FF8427BD2C7800A9140C /* ContentView.swift */,
+				0E6B4E9727C120920002DA4E /* TextFildView.swift */,
+				0ED4FF8427BD2C7800A9140C /* TimerView.swift */,
+				0E6B4E9B27C123380002DA4E /* UnderCircleView.swift */,
+				0E6B4E9927C122EB0002DA4E /* CircleView.swift */,
 				0ED4FF9027BD326300A9140C /* WhiteButton.swift */,
 				0ED4FF9227BD376600A9140C /* TimeCounter.swift */,
 				0ED4FF9627BD436400A9140C /* UserManager.swift */,
@@ -156,10 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED4FF9927BD46AE00A9140C /* StarterView.swift in Sources */,
+				0E6B4E9827C120920002DA4E /* TextFildView.swift in Sources */,
 				0E6B4E9627C11B900002DA4E /* DataManager.swift in Sources */,
 				0ED4FF9727BD436400A9140C /* UserManager.swift in Sources */,
-				0ED4FF8527BD2C7800A9140C /* ContentView.swift in Sources */,
+				0ED4FF8527BD2C7800A9140C /* TimerView.swift in Sources */,
+				0E6B4E9C27C123380002DA4E /* UnderCircleView.swift in Sources */,
 				0ED4FF9527BD392500A9140C /* RegisterView.swift in Sources */,
+				0E6B4E9A27C122EB0002DA4E /* CircleView.swift in Sources */,
 				0ED4FF9127BD326300A9140C /* WhiteButton.swift in Sources */,
 				0ED4FF8327BD2C7800A9140C /* TimerApp.swift in Sources */,
 				0ED4FF9327BD376600A9140C /* TimeCounter.swift in Sources */,

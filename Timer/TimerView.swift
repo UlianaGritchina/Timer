@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TimerView: View {
     @StateObject private var timer = TimeCounter()
     @EnvironmentObject private var user: UserManager
     
@@ -25,7 +25,6 @@ struct ContentView: View {
                     CircleView(show: $show,
                                counter: $timer.counter,
                                seconds: $seconds)
-
                 }
                 
                 Spacer()
@@ -56,63 +55,11 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TimerView()
             .environmentObject(UserManager())
     }
 }
 
-struct CircleView: View {
-    @Binding var show: Bool
-    @Binding var counter: Int
-    @Binding var seconds: String
-    var body: some View {
-        Circle()
-            .frame(width: 150, height: 150)
-            .foregroundColor(.white)
-            .shadow(color: Color.black.opacity(0.5),
-                    radius: 15,
-                    x: 10, y: 10)
-            .blur(radius: 2)
-            .overlay(
-                Text(String(counter))
-                    .bold()
-                    .foregroundColor(.blue.opacity(0.5))
-                    .font(.system(size: 50))
-                    .shadow(radius: 1)
-            )
-            .onTapGesture {
-                show.toggle()
-                if !show {
-                    counter = Int(seconds) ?? 3
-                    UIApplication.shared.endEditing()
-                }
-            }
-    }
-}
-
-struct UnderCircleView: View {
-    @Binding var show: Bool
-    @Binding var seconds: String
-    var body: some View {
-        Circle()
-            .frame(width: 140, height: 140)
-            .foregroundColor(.white)
-            .shadow(color: Color.black.opacity(0.2),
-                    radius: 10,
-                    x: 10, y: 10)
-            .blur(radius: 2)
-            .offset(x: 0, y: show ? 130 : 0)
-            .overlay(
-                TextField("Seconds", text: $seconds)
-                    .frame(width: 100, height: 50)
-                    .multilineTextAlignment(.center)
-                    .textFieldStyle(.roundedBorder)
-                    .keyboardType(.numberPad)
-                    .offset(x: 0, y: show ? 130 : 0)
-            )
-            .animation(.easeInOut(duration: 0.5), value: show)
-    }
-}
 
 extension UIApplication {
     func endEditing() {
