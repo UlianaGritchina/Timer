@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6B4E9627C11B900002DA4E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B4E9527C11B900002DA4E /* DataManager.swift */; };
 		0ED4FF8327BD2C7800A9140C /* TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8227BD2C7800A9140C /* TimerApp.swift */; };
 		0ED4FF8527BD2C7800A9140C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8427BD2C7800A9140C /* ContentView.swift */; };
 		0ED4FF8727BD2C7B00A9140C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8627BD2C7B00A9140C /* Assets.xcassets */; };
 		0ED4FF8A27BD2C7B00A9140C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4FF8927BD2C7B00A9140C /* Preview Assets.xcassets */; };
+		0ED4FF9127BD326300A9140C /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF9027BD326300A9140C /* WhiteButton.swift */; };
+		0ED4FF9327BD376600A9140C /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF9227BD376600A9140C /* TimeCounter.swift */; };
+		0ED4FF9527BD392500A9140C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF9427BD392500A9140C /* RegisterView.swift */; };
+		0ED4FF9727BD436400A9140C /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF9627BD436400A9140C /* UserManager.swift */; };
+		0ED4FF9927BD46AE00A9140C /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4FF9827BD46AE00A9140C /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E6B4E9527C11B900002DA4E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0ED4FF7F27BD2C7800A9140C /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED4FF8227BD2C7800A9140C /* TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerApp.swift; sourceTree = "<group>"; };
 		0ED4FF8427BD2C7800A9140C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0ED4FF8627BD2C7B00A9140C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ED4FF8927BD2C7B00A9140C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ED4FF9027BD326300A9140C /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
+		0ED4FF9227BD376600A9140C /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		0ED4FF9427BD392500A9140C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0ED4FF9627BD436400A9140C /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		0ED4FF9827BD46AE00A9140C /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				0ED4FF8227BD2C7800A9140C /* TimerApp.swift */,
+				0ED4FF9827BD46AE00A9140C /* StarterView.swift */,
+				0ED4FF9427BD392500A9140C /* RegisterView.swift */,
 				0ED4FF8427BD2C7800A9140C /* ContentView.swift */,
+				0ED4FF9027BD326300A9140C /* WhiteButton.swift */,
+				0ED4FF9227BD376600A9140C /* TimeCounter.swift */,
+				0ED4FF9627BD436400A9140C /* UserManager.swift */,
+				0E6B4E9527C11B900002DA4E /* DataManager.swift */,
 				0ED4FF8627BD2C7B00A9140C /* Assets.xcassets */,
 				0ED4FF8827BD2C7B00A9140C /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED4FF9927BD46AE00A9140C /* StarterView.swift in Sources */,
+				0E6B4E9627C11B900002DA4E /* DataManager.swift in Sources */,
+				0ED4FF9727BD436400A9140C /* UserManager.swift in Sources */,
 				0ED4FF8527BD2C7800A9140C /* ContentView.swift in Sources */,
+				0ED4FF9527BD392500A9140C /* RegisterView.swift in Sources */,
+				0ED4FF9127BD326300A9140C /* WhiteButton.swift in Sources */,
 				0ED4FF8327BD2C7800A9140C /* TimerApp.swift in Sources */,
+				0ED4FF9327BD376600A9140C /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +301,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
